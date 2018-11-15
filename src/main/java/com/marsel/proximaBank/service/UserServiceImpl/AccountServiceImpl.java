@@ -27,6 +27,7 @@ import com.marsel.proximaBank.domain.SavingsTransaction;
 import com.marsel.proximaBank.domain.User;
 
 import static com.marsel.proximaBank.util.AppConstants.*;
+@SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
 @Service
 public class AccountServiceImpl implements AccountService {
 	private static final Logger L = LogManager.getLogger(AccountServiceImpl.class);
